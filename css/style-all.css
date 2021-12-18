@@ -1,0 +1,8 @@
+/* font-family: 'Cinzel', serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Rubik Beastly', cursive; */
+
+.nav a:first-child{
+    font-family:'Rubik Beastly', cursive;
+}

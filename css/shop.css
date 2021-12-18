@@ -1,0 +1,43 @@
+.hero{
+    background-image: url("/img/hero-6.jpg"); 
+    background-size: cover;
+}
+
+.h-45vh{
+    height:45vh; 
+}
+
+/* Navigation and Hero */
+.nav a:first-child{
+    margin-right: auto; 
+    font-size: 25px;
+}
+
+.control-image{
+    height:10rem; 
+    width:10rem; 
+}
+
+.product-item{
+    box-shadow:2px 2px 30px rgba(0,0,0,2); 
+}
+
+span:hover{
+    transform: scale(1.75); 
+    transition: all ease 0.1s;
+}
+
+.nav a{
+    background-color: #33cc00; 
+
+}
+
+.nav a:hover{
+    background-color: green;
+    text-decoration:underline; 
+}
+
+nav a:first-child{
+    font-family: 'Rubik Beastly', cursive;
+    color:#6610f2;
+    font-size: 20%;} 

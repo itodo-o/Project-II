@@ -1,0 +1,82 @@
+/* font-family: 'Cinzel', serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Rubik Beastly', cursive; */
+
+/* The Hero */
+
+.hero{
+    background-image: url("/img/hero-choice-2.jpg"); 
+    background-size:cover;
+
+}
+.h-60vh{
+    height:60vh; 
+}
+/* Categories */
+
+.category-box{
+    border-radius:10px; 
+    background-color: #98FB98;
+    /* min-height:130px; 
+    width:120px;  */
+    
+}
+
+.category-box img{
+    height:35px; 
+    width:50px; 
+    object-fit: contain;
+    object-position: center;
+    transition: all ease 0.1s; 
+}
+
+.category-box:hover img{
+    transform: scale(1.75); 
+    transition: all ease 0.1s; 
+}
+
+.category-box span{
+    color: #556B2F;
+}
+.control-image{
+    height:10rem; 
+    width:10rem; 
+}
+
+.box{
+    box-shadow:2px 2px 30px rgba(0,0,0,2); 
+    border-radius:10px; 
+    overflow:hidden;
+}
+
+.detail-box{
+    width:100%; 
+    padding:10px 20px; 
+    box-sizing:border-box; 
+}
+
+.product-page{
+	width:160px;
+	height: 40px;
+	display: flex;
+	justify-content:space-around; 
+	align-items: center; 
+	background-color: #FFFFFF;
+	color:#252525;
+	font-weight: 700;
+	letter-spacing: 1px;
+	border-radius: 20px; 
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+    
+}
+.product-page:hover{
+	color:#FFFFFF;
+	background-color:greenyellow;
+	transition: all ease 0.3s;
+}
+.navbar-brand{
+    font-family: 'Rubik Beastly', cursive;
+    color:#6610f2; 
+
+}

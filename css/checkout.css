@@ -1,0 +1,32 @@
+.control-image{
+    height:10rem; 
+    width:10rem; 
+}
+
+.acquired-items{
+    box-shadow:2px 2px 30px grey; 
+}
+
+.subtotal{
+        box-shadow:2px 2px 30px rgba(0,0,0,2); 
+    
+}
+.nav a{
+    background-color: #33cc00; 
+
+}
+
+.nav a:hover{
+    background-color: green;
+    text-decoration:underline; 
+}
+
+nav a:first-child{
+    font-family: 'Rubik Beastly', cursive;
+    color:#6610f2;
+    font-size: 2rem;
+} 
+
+.btn-group a:hover{
+    background-color: lightgreen;
+}
